@@ -185,6 +185,7 @@ nav{
 }
 .online-games p{
     padding-bottom: 30px;
+    text-align: center;
 }
 .card-container{
     display: flex;
@@ -201,4 +202,37 @@ nav{
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 30px;
+}
+
+/*############ Play Css ###############*/
+.play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 110px;
+    gap: 180px;
+}
+.play-content h2, p {
+   text-align: right;
+}
+
+.play-content h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-img{
+    position: relative;
+}
+.play-img img:first-child{
+    width: 460px;
+}
+
+.play-img img:last-child{
+    width: 200px;
+    position: absolute;
+    bottom: -40px;
+    right: 350px;
+    border: 1px solid #0b02232e;
 }

@@ -42,8 +42,24 @@
     .online-games{
         padding: 50px 80px;
     }
-    .card-container{
+    .card-container, .play{
         flex-direction: column;
+    }
+    .play{
+        gap: 40px;
+    }
+    .play-content h2, p{
+        text-align: center;
+    }
+
+    .play-img img:first-child{
+        width: 285px;
+    }
+    
+    .play-img img:last-child {
+        width: 110px;
+        bottom: -26px;
+        right: 225px;
     }
     
 }
