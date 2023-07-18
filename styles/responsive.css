@@ -1,0 +1,14 @@
+@media screen and (max-width:576px){
+    nav, .banner, .menu ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .banner-img img{
+        width: 375px;
+    }
+    
+}
