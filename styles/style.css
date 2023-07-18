@@ -11,6 +11,13 @@
 a{
     text-decoration: none;
 }
+p{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
 
 h1{
     text-align: center;
@@ -108,10 +115,54 @@ nav{
     align-items: center;
     padding: 0 110px;
 }
+.banner-content{
+    background: url("../images/Group\ 14.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .banner-img img{
     width: 560px;
 }
 .btn-go{
     border-radius: 48px;
     background: #4EC5F7;
+}
+
+/*############ Gamer Section Css ###############*/
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 110px;
+}
+.gamer-img img{
+    width: 560px;
+}
+.gamer-content{
+    text-align: right;
+}
+.gamer-content h2{
+    text-align: right;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 15px;
+    text-transform: none;
+}
+.gamer-content p{
+    width: 520px;
+}
+.gamer-content .purpose{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.gamer-content .purpose span{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
 }
