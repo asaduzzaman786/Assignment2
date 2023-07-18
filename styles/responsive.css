@@ -61,5 +61,10 @@
         bottom: -26px;
         right: 225px;
     }
+
+    .category{
+        padding: 20px 0px;
+        grid-template-columns: repeat(3, 1fr);
+    }
     
 }

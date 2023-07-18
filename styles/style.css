@@ -236,3 +236,26 @@ nav{
     right: 350px;
     border: 1px solid #0b02232e;
 }
+
+/*############ Category Css ###############*/
+.category{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px 110px;
+    gap: 5px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.box h4{
+    line-height: normal;
+    font-size: 1.05rem;
+
+}
+
+.footer-logo{
+    display: flex;
+}
