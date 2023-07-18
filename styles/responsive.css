@@ -30,11 +30,20 @@
         text-align: center;
         width: 395px;
     }
+    .gamer-content .purpose{
+        text-align: center;
+    }
     .gamer-content h2{
         text-align: center;
     }
     .gamer-img img{
         width: 375px;
+    }
+    .online-games{
+        padding: 50px 80px;
+    }
+    .card-container{
+        flex-direction: column;
     }
     
 }
