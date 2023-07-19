@@ -97,10 +97,13 @@
     }
     .category{
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 5px;
+        grid-gap: 0px;
     }
     .category{
         padding: 50px 0px;
+    }
+    .category h4{
+        font-size: .9rem;
     }
     .box-container1{
         display: grid;
@@ -151,15 +154,18 @@
 }
 
 /*================ For 320px Device ==============*/
-@media screen and (max-width:320px) {
+@media screen and (max-width:375px) {
     .category{
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 25px;
+        grid-gap: 15px;
     }
     
     .banner-content{
         padding-right: 60px;
         padding-left: 40px;
+    }
+    .category h4{
+        font-size: .8rem;
     }
 }
 
