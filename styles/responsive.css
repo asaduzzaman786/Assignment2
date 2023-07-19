@@ -25,6 +25,10 @@
         flex-direction: column;
         gap: 20px;
     }
+    .menu ul li:last-child{
+        padding: 0;
+        margin: 0;
+    }
     .banner{
         flex-direction: column-reverse;
         gap: 60px;
@@ -93,7 +97,8 @@
         padding: 20px 0px;
     }
     .box-container1{
-        flex-direction: column;
+        display: grid;
+        grid-column: span 3;
     }
 
     .footer-menu ul,.footer-icon ul{
