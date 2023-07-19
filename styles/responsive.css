@@ -1,13 +1,25 @@
 @media screen and (max-width:576px){
-    /* h1{
+    a{
+        font-size: .5rem;
+    }
+    h1{
         font-size: 2.5rem;
     }
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     h4{
-        font-size: 1.5rem;
-    } */
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: .8rem;
+    }
+    .btn{
+        border-radius: 48px;
+        padding: 11px 20px;
+        margin-top: 25px;
+        font-size: .8rem;
+    }
 
     nav, .banner, .menu ul{
         flex-direction: column;
@@ -16,9 +28,21 @@
     .banner{
         flex-direction: column-reverse;
         gap: 60px;
+        padding-right: 0;
     }
+    .banner-content{
+        padding-right: 120px;
+        padding-left: 100px;
+    }
+    
     .banner-img img{
         width: 375px;
+    }
+    .gamer-content .purpose{
+        font-size: 1rem;
+    }
+    .gamer-content .purpose span{
+        font-size: 1.2rem;
     }
     .gamer{
         flex-direction: column;
@@ -28,7 +52,7 @@
     }
     .gamer-content p{
         text-align: center;
-        width: 395px;
+        width: 360px;
     }
     .gamer-content .purpose{
         text-align: center;
@@ -51,7 +75,10 @@
     .play-content h2, p{
         text-align: center;
     }
-
+    .play-content p {
+        margin-top: 10px;
+        line-height: normal;
+     }
     .play-img img:first-child{
         width: 285px;
     }
@@ -64,11 +91,33 @@
 
     .category{
         padding: 20px 0px;
-        grid-template-columns: repeat(3, 1fr);
+    }
+    .box-container1{
+        flex-direction: column;
     }
 
-    .footer-menu, .footer-content, .footer-icon{
-        gap: 10px;
+    .footer-menu ul,.footer-icon ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 10px 30px;
+        margin: 0 auto;
+    }
+    .footer-icon ul{
+        padding-left: 80px;
+    }
+
+    .footer-content ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 10px 0px;
+        padding-left: 60px;
+    }
+
+    .footer-last p{
+        width: 180px;
+        margin: 0 auto;
     }
     
 }
