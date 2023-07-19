@@ -255,7 +255,53 @@ nav{
     font-size: 1.05rem;
 
 }
-
+footer{
+    background: #0B0223;
+}
 .footer-logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.footer-logo h3{
+    color: #fff;
+}
+.footer-menu, .footer-icon, .footer-content{
+    margin-top: 50px;
+}
+.footer-menu ul, .footer-content ul, .footer-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-menu li a{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-icon img{
+    width: 40px;
+    height: 40%;
+    border-radius: 50%;
+}
+.footer-content ul li a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-last p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1 rem;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }

@@ -66,5 +66,9 @@
         padding: 20px 0px;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .footer-menu, .footer-content, .footer-icon{
+        gap: 10px;
+    }
     
 }
