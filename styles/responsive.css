@@ -9,7 +9,7 @@
         font-size: 1.5rem;
     }
     h4{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     p{
         font-size: .8rem;
@@ -68,7 +68,8 @@
         width: 375px;
     }
     .online-games{
-        padding: 50px 80px;
+        padding: 50px 0px;
+        gap: 0px;
     }
     .card-container, .play{
         flex-direction: column;
@@ -92,9 +93,12 @@
         bottom: -26px;
         right: 225px;
     }
-
     .category{
-        padding: 20px 0px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+    }
+    .category{
+        padding: 50px 0px;
     }
     .box-container1{
         display: grid;
@@ -124,5 +128,22 @@
         width: 180px;
         margin: 0 auto;
     }
+
+    /*############ Overlay Css ###############*/
+    .card{
+        position: relative;
+        width: 50%;
+      }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
     
 }
